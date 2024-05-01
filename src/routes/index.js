@@ -3,6 +3,6 @@ const router = Router()
 
 const userRouter = require('./userRouter')
 
-router.post('/cadastro', userRouter)
+router.post('/user', userRouter)
 
 module.exports = router

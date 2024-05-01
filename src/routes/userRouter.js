@@ -4,6 +4,6 @@ const userController = require('../controller/userController.js')
 const userRouter = Router()
 const userControllerInit = new userController()
 
-userRouter.post('/cadastro', userControllerInit.createUser)
+userRouter.post('/user', userControllerInit.createUser)
 
 module.exports = userRouter
